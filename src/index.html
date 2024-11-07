@@ -15,7 +15,107 @@
 <body class="font-roboto">
     
     <!-- Header -->
-    <header></header>
+    <header>
+        <div></div>
+
+
+        <!-- Navbar -->
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+                <!-- Side-bar Menu -->
+                <div class="drawer-star lg:hidden">
+                    <input id="my-drawer-2" type="checkbox" class="drawer-toggle" />
+                    <div class="drawer-content flex flex-col items-center justify-center">
+                      <!-- Page content here -->
+                      <label for="my-drawer-2" class="drawer-button lg:hidden">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="h-5 w-5"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                      </label>
+                    </div>
+                    <div class="drawer-side">
+                      <label for="my-drawer-2" aria-label="close sidebar" class="drawer-overlay"></label>
+                      <ul class="menu bg-base-200 text-base-content min-h-full w-[80%] md:w-80 p-4">
+                        <!-- Sidebar content here -->
+                        <div class="flex">
+                            <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+                            <div class="btn bg-theme-primary">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                        </div>
+                        <li><a>Home</a></li>
+                        <li>
+                        <details>
+                            <summary>All Food</summary>
+                            <ul class="p-2">
+                            <li><a>Submenu 1</a></li>
+                            <li><a>Submenu 2</a></li>
+                            </ul>
+                        </details>
+                        </li>
+                        <li><a>About</a></li>
+                        <li><a>Contact</a></li>
+                      </ul>
+                    </div>
+                </div>
+
+                <a href="#" class="hidden lg:flex">
+                    <img src="images/logo-main.png" alt="logo-main" class="w-[100px]">
+                </a>
+            </div>
+            <div class="navbar-center">
+                <a href="#" class="lg:hidden">
+                    <img src="images/logo-main.png" alt="logo-main" class="w-[40px] md:w-[80px]">
+                </a>
+              <ul class="menu  menu-horizontal px-1 hidden lg:flex justify-center items-center font-bold uppercase">
+                <li class="hover:text-theme-primary"><a>Home</a></li>
+                <li>
+                  <details>
+                    <summary>All Food</summary>
+                    <ul class="p-2">
+                      <li><a>Submenu 1</a></li>
+                      <li><a>Submenu 2</a></li>
+                    </ul>
+                  </details>
+                </li>
+                <li><a>About</a></li>
+                <li><a>Contact</a></li>
+                <div class="flex">
+                    <input type="text" placeholder="Search here" class="input input-bordered rounded-none w-full font-normal focus:outline-none" />
+                    <div class="btn bg-theme-primary rounded-none border-none text-white">
+                        <i class="fa-solid fa-magnifying-glass text-xl"></i>
+                    </div>
+                </div>
+              </ul>
+            </div>
+            <div class="navbar-end gap-10  text-2xl">
+                <div class="hidden lg:flex">
+                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                </div>
+
+                <div class="flex  gap-2">
+                    <div class="hidden lg:flex">
+                        <a href="#">0<i class="fa-solid fa-bangladeshi-taka-sign"></i></a>
+                    </div>
+
+                    <div>
+                        <a href="#">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+          </div>
+    </header>
 
     <!-- Main -->
     <main></main>
