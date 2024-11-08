@@ -46,8 +46,11 @@
             <div class="navbar container mx-auto">
                 <div class="navbar-start">
                     <!-- Side-bar Menu -->
-                    <div class="drawer-star lg:hidden">
+                    <div class="drawer z-50 lg:hidden">
+                        <!-- Drawer Toggle (Checkbox) -->
                         <input id="my-drawer-2" type="checkbox" class="drawer-toggle" />
+                        
+                        <!-- Content Area -->
                         <div class="drawer-content flex flex-col items-center justify-center">
                             <!-- Page content here -->
                             <label for="my-drawer-2" class="drawer-button lg:hidden">
@@ -58,10 +61,11 @@
                                 </svg>
                             </label>
                         </div>
+                    
+                        <!-- Sidebar -->
                         <div class="drawer-side">
                             <label for="my-drawer-2" aria-label="close sidebar" class="drawer-overlay"></label>
-                            <ul
-                                class="menu bg-base-200 z-50 text-base-content min-h-full w-[80%] md:w-80 py-8 px-5 gap-10">
+                            <ul class="menu bg-base-200 z-50 text-base-content min-h-full w-[80%] md:w-80 py-8 px-5 gap-10">
                                 <!-- Sidebar content here -->
                                 <div class="flex">
                                     <input type="text" placeholder="Type here"
@@ -94,6 +98,7 @@
                             </ul>
                         </div>
                     </div>
+                    
 
                     <a href="#" class="hidden lg:flex">
                         <img src="images/logo-main.png" alt="logo-main" class="w-[100px]">
@@ -174,7 +179,7 @@
             </div>
 
             <!-- Main Content -->
-            <div class="container mx-auto ">
+            <div class="container mx-auto">
                 <!-- Card Container -->
                 <div class="grid gap-5 md:gap-10 grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
                     <!-- Card-1 -->
